@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  color: #0e374c;
+  background: hsla(35, 100%, 95%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(35, 100%, 95%, 1) 0%,
+    hsla(24, 61%, 73%, 1) 49%,
+    hsla(207, 69%, 95%, 1) 85%
+  );
+
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(35, 100%, 95%, 1) 0%,
+    hsla(24, 61%, 73%, 1) 49%,
+    hsla(207, 69%, 95%, 1) 85%
+  );
+
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(35, 100%, 95%, 1) 0%,
+    hsla(24, 61%, 73%, 1) 49%,
+    hsla(207, 69%, 95%, 1) 85%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFF5E7", endColorstr="#E4B18E", GradientType=1 );
+}
